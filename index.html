@@ -4,7 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formularios en Udemy  </title>
+    <title>Formularios</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" method="get">
+      <input
+        type="text"
+        name="nombre"
+        id=""
+        placeholder="Nombre"
+        maxlength="10"
+        required
+      /><br />
+      <!-- asi mismo se puede usar el atributo "required" el cual funciona para solicitar que un campo sea obligatorio -->
+      <!-- el atributo "readonly" sirve para q el input no pueda ser editado -->
+      <!-- el atributo disable deshabilita el input -->
+      <input
+        type="email"
+        name="email"
+        id=""
+        placeholder="<correo>@jaliscoedu.mx"
+      /><br />
+
+      <textarea
+        name="mensaje"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="mensaje"
+      ></textarea>
+      <br />
+
+      <select name="pais" id="">
+        <option value="1">Mexico</option>
+        <option value="2">Argentina</option>
+        <option value="3">España</option>
+      </select>
+
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
 </html>
