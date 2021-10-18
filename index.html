@@ -34,14 +34,52 @@
         placeholder="mensaje"
       ></textarea>
       <br />
-
+      <label for="pais">Pais</label>
       <select name="pais" id="">
         <option value="1">Mexico</option>
         <option value="2">Argentina</option>
         <option value="3">España</option>
       </select>
+      <br />
 
-      <input type="submit" value="enviar" />
+      <input type="radio" name="genero" id="hombre" value="hombre" /><label
+        for="hombre"
+        >Hombre</label
+      >
+      <input type="radio" name="genero" id="mujer" value="mujer" /><label
+        for="mujer"
+        >Mujer</label
+      >
+      <br />
+
+      <input type="checkbox" name="terminos" id="terminos" /><label
+        for="terminos"
+        >Terminos y condiciones</label
+      >
+      <br />
+      <!-- inputs extra que se acaban de agregar y no sirven en todos los navegadores -->
+
+      <input
+        type="password"
+        name="clave"
+        id=""
+        placeholder="contraseña"
+      /><br />
+
+      <input type="number" name="numero" id="" min="5" max="15" /><br />
+
+      <input type="range" name="rango" id="" min="10" max="100" /><br />
+
+      <input type="url" name="url" id="" placeholder="sitio web" />
+
+      <input type="color" name="color" id="" />
+
+      <br /><input type="submit" value="enviar" />
+<!-- 
+      todos los tipos de input
+      https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+
+       -->
     </form>
   </body>
 </html>
