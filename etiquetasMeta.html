@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    habilita el diseño responsive design.
+    <!--
+      
+      habilita el diseño responsive design.
     
     width=device-width :  Establecemos que el ancho de la pagina sea igual al del dispositivo.
     user-scalable=no : el usuario no puede escalar el sitio ( zoom )
     initial-scale=1.0 : la pagina tendra tamaño inicial de 1
+    maximum-scale=1.0 : la pagina tendra un tamaño maximo de 1
+    minimum-scale=1.0 : la pagina tendra un tamaño minimo de  1
      
+    -->
 
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
 
     <!-- anteriormente se tomaba la info de estas etiquetas meta para el resultado de los motores de busqueda, aunque en 2021 ya esta siendo abandonado -->
     <meta
@@ -31,5 +37,7 @@
 
     <title>Etiquedas meta</title>
   </head>
-  <body></body>
+  <body>
+    hi
+  </body>
 </html>
