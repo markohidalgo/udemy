@@ -1,0 +1,23 @@
+/* selector de hijos */
+div > p {
+    font-size: 20px;
+}
+
+/* selector de atributos */
+
+input[type] {}
+
+input[type="text"] {}
+
+
+/* algunos estilos se heredan hacia sus hijos, fuentes y colores por mencionar algunos */
+
+body {
+    color: blue;
+}
+
+article {
+
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,54 @@
+* {
+
+    /* el asterisco en la posicion de selector signigica que 
+es aplicable para todos los elementos de la pagina */
+
+
+}
+
+/* selectores de etiqueta */
+
+h1 {
+
+    color: blue;
+}
+
+/* 
+h1,h2...hn {
+    
+    de esta manera se escogen mas selectores de etiqueta de manera conjunta
+para  aplicar las mismas reglas
+
+}
+ */
+
+
+/* selector descendente */
+
+div p {
+
+    font-size: 16px;
+
+    /* 
+    al colocar la etiqueta "div" antes se utilizara como filtro que sea
+    un parrafo dentro de un div 
+    */
+
+}
+
+p a {
+
+    color: red;
+}
+
+/* selectores de clase */
+
+/* se aplica a clases y a identificadores ( id's) */
+
+.grande {
+    font-size: 28px;
+}
+
+#rojo {
+    color: red ;
+}
