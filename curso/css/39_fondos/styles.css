@@ -1,0 +1,25 @@
+body{
+
+    /* background:blue; por nombre de color  */
+    /* background:#70a4e8;  por combinacion hexadecimal  */
+        
+    /* cuando la imagen es pequeña tiende a repetirse tanto horizontal como verticalmente */
+
+    background: url('./11737.jpg');
+   /*  
+   en esta propiedad se establece la manera de repetir o no, la imagen de fondo, existiendo: 
+    repeat : este valor se configura por defecto.
+    no-repeat : este valor deja la imagen con su tamaño original.
+    repeat-x : repite la imagen en el eje x .
+    repeat-y : repite la imagen en el eje y . 
+    */
+
+    background-repeat: no-repeat;
+
+    background-size: cover ;
+
+    https://youtu.be/LIDEoGCfcGw
+
+
+
+}
