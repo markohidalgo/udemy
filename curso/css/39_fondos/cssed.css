@@ -1,9 +1,13 @@
 .caja {
 
-    width: 200px;
-    height: 700px;
+    width: 50px;
+    height: 200px;
+
     /* background: yellow;  <- para tener un fondo solido */
+
+
     /* para centrar la caja */
+
     position: absolute;
     top: 0;
     right: 0;
@@ -40,23 +44,35 @@
     background-size: cover;
 
 
-    /*   background-position: center center; */
-    animation: slider 5s;
+
+    animation: slider 500s infinite;
+
+    /* se define que tendra una animacion llamada " slider " el cual durara 500 segundos
+    y estara ciclado hasta el infinito */
 
 }
 
 @keyframes slider {
+    /* definicion de la animacion antes declarada */
 
     from {
-        background-positionx: left center;
+        background-size: 1000px;
+        background-position: left bottom;
+        /* se definen las concidiones iniciales de la caja de la cual parte la animacion */
     }
 
     to {
 
-        background-positionx: right center;
+        background-size: 1900px;
+        background-position: right bottom;
+        /* se definen las condiciones finales de la caja en la cual finaliza la animacion */
     }
 
 }
 
+/* 
 
 https: //www.youtube.com/watch?v=LIDEoGCfcGw
+
+
+*/
