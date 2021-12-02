@@ -1,0 +1,62 @@
+.caja {
+
+    width: 200px;
+    height: 700px;
+    /* background: yellow;  <- para tener un fondo solido */
+    /* para centrar la caja */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /* fin de centrar caja */
+
+    background: url('imagen2.jpg') red;
+    /* con esta propiedad se define el comportamiento de la imagen respecto a su contenedor padre
+    background-repeat: no-repeat | repeat | repeat-x | repeat-y ;
+
+        repeat: repite la imagen para rellenar el contenedor padre;
+        no-repeat: no repite la imagen dentro del contenedor padre;
+        repeat-x: repite la imagen sobre el eje x;
+        repeat-y: repite la imagen sobre el eje y;
+    */
+    background-repeat: no-repeat;
+    /* 
+    background-size: x px, y px | %x , %y auto | cover | contain ; 
+
+        se recomienda al manejarse por medidas, utilizar solo la primera(ancho),
+        dejando el calculo al navegador para mantener la proporcionalidad
+    
+        x:  valor en pixel para el eje x
+        y:  valor en pixel para el eje y
+        %x: valor en porcentaje para el eje x
+        %y: valor en porcentaje para el eje y
+
+        auto:   se toma el tamaño orignal de la imagen de fondo;
+        cover:  rellenar toda el area de la caja con la imagen de fondo, estirando la imagen;
+        contain: incrusta en la caja, manteniendo la relacion de aspecto  la imagen. (puede que que no cubra la altura de la caja)
+    */
+    background-size: cover;
+
+
+    /*   background-position: center center; */
+    animation: slider 5s;
+
+}
+
+@keyframes slider {
+
+    from {
+        background-positionx: left center;
+    }
+
+    to {
+
+        background-positionx: right center;
+    }
+
+}
+
+
+https: //www.youtube.com/watch?v=LIDEoGCfcGw
