@@ -5,7 +5,7 @@ body {
 
     /* cuando la imagen es pequeña tiende a repetirse tanto horizontal como verticalmente */
 
-    background: url('./imagen.jpg');
+     background: url('imagen.jpg')red;
     /*  
    en esta propiedad se establece la manera de repetir o no, la imagen de fondo, existiendo: 
     repeat : este valor se configura por defecto.
@@ -16,9 +16,27 @@ body {
 
     background-repeat: no-repeat;
 
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-attachment: fixed  /  scroll;
+        
+    scroll: el contenido y la imagen se desplasan al unisono.
+
+    fixed: la imagen de fondo permanece estatica
+
+*/
+
+background-position: center  center;
+/* permite posicionar la imagen de fondo en el contenedor padre */
 
 
+/* otra manera resumida de colocar todo seria como sigue */
 
+/*
 
-}
+background: url('imagen.jpg') no-repeat fixed center center;
+background-size: 500px;
+
+*/
+
+} 
