@@ -3,7 +3,7 @@
     width: 200px;
     height: 500px;
 
-    /* background: yellow;  <- para tener un fondo solido .*/
+    /* background: yellow;  <- para tener un fondo solido ..*/
 
 
     /* para centrar la caja */
@@ -45,7 +45,7 @@
     background-position: center center;
 
 
-     animation: slider 5s infinite; 
+    animation: slider 5s infinite;
 
     /* se define que tendra una animacion llamada " slider " el cual durara 500 segundos
     y estara ciclado hasta el infinito */
