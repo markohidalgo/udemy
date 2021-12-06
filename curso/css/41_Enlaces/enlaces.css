@@ -1,0 +1,36 @@
+a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+/* 
+las pseudoclases permiten dar estilo dependiendo el evento que
+le ocurran a cada elemento */
+a:hover {
+    /* mouse encima */
+    background: #f9a03f;
+    color: white;
+
+}
+
+a:link {
+
+    /* link q no eh visitado */
+    text-decoration: none;
+    color: red;
+
+}
+
+a:visited {
+    /* los ya visitados */
+    color: #ccc;
+
+
+}
+
+a:active {
+/* mientras tiene el foco del click */
+    color: black;
+
+}
