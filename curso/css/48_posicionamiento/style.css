@@ -1,0 +1,32 @@
+.caja {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 200em;
+
+}
+
+.posicionada {
+
+    background: red;
+    position: absolute;
+    
+    left:100px; 
+
+/*
+    tipos de posicionamiento
+
+    static : es el default que todo navegador utiliza ( se considera NO POSICIONADO )
+    relative : nos permite posicionar una caja y despues moverla desde su lugar original
+    absolute: nos permite posicionar una caja respecto a su contenedor 
+    fixed: nos permite posicionar una caja en una posicion fija respecto a la pantalla
+    float: nos permite desplazar las cajas todo lo posible a la derecha o izquierda
+
+
+*/
