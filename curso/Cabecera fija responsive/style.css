@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2em;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.container {
+
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+
+    background: #333;
+    color: #FFF;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* libera el espacio intermedio para posicionar los elementos a los extremos */
+    align-items: center;
+    /* alineacion vertical de todos los elementos */
+    flex-wrap: wrap;
+    /* si un elemento tiene mas ancho baja cada elemento */
+
+
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.navigation ul li {
+
+    display: inline-block;
+    /* para posicionar cada elemento del menu uno a cada lado del otro */
+}
+
+.navigation ul a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    /* animacion de fondo para cada elemento del menu */
+    border-radius: 5px;
+}
+
+.navigation ul a:hover {
+
+    background: #4a4a4a;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.footer {
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main {
+    padding-top: 10rem;
+}
+
+@media only screen and (max-width : 320px) {
+
+    .navigation ul {
+        display: none;
+    }
+
+    .navigation ul.show {
+
+        display: block;
+    }
+
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul li {
+
+        display: block;
+
+    }
+
+    .navigation ul a {
+        display: block;
+        padding: 0.5rem;
+        transition: all 0.4s linear;
+        /* animacion de fondo para cada elemento del menu */
+        border-radius: 5px;
+    }
+
+    .navigation ul a:hover {
+
+        background: #4a4a4a;
+    }
+
+}
