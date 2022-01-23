@@ -1,0 +1,15 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    color:white;
+    margin:30px;
+    background: blue;
+    
+}
+
+.posicionada{
+    background: blueviolet;
+    position: fixed;
+    left:207px
+    
+}
